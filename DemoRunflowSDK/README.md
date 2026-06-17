@@ -28,4 +28,27 @@ Ao final deste hands-on, você terá provisionado:
 3. Após criação do Compartment, vá no menu principal no canto superior esquerdo → Developer Services → Resource Manager → Stacks → Create Stack:
 
     3.1 - ![alt text](img/image.png)
-    3.2 Envie o arquivo : ....
+    3.2 Envie o arquivo : "runflow-oci-saas-demo-v2.zip" que está nesse repositório
+    3.3 - Create in compartment: inserir o compartment que foi criado no passo anterior
+    3.4 - Se vocês não forem utilizar nenhuma api_key (grok ou runflow), deixar vazio esses campos
+    3.5 - Antes de criar selecionar em "Run apply on the created stack" o checkbox "Run apply"
+
+4. Após alguns minutos, será criado alguns recursos como:
+    - Toda fundação de redes como VCN, Subnet, SL, Gateways e etc
+    - VM Ubuntu Shape E5 Flex com IP Público com Node.js, nginx e runflow-ai/sdk
+    - A VM contém APP, Health, Logs Bootstrap e Logs Servico, além a possibilidade de inserção de api_keys futuras
+
+---
+## 🎯  Considerações finais
+
+Esse fluxo permitiu validar, na prática de forma simples e eficaz a criação de alguns recursos através do Resource Manager, que é um serviço Oracle que permite utilização de IaC Terraform.
+
+
+---
+
+**Profissional Oracle:** Thiago Alves Gomes
+**Demo OCI com Resource Manager
+**Tema:** Hackathon Runflow + Oracle Journey: Construindo Agentes de IA.
+
+---
+
