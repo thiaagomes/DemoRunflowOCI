@@ -26,12 +26,11 @@ Ao final deste hands-on, você terá provisionado:
 1. Acesse [https://cloud.oracle.com/] e faça login
 2. Acesse o canto superior direito "PROFILE" →  Identity Domain →  Compartments = "Create Compartment"
 3. Após criação do Compartment, vá no menu principal no canto superior esquerdo → Developer Services → Resource Manager → Stacks → Create Stack:
-
-    3.1 - ![alt text](img/image.png)
-    3.2 Envie o arquivo : "runflow-oci-saas-demo-v2.zip" que está nesse repositório
-    3.3 - Create in compartment: inserir o compartment que foi criado no passo anterior
-    3.4 - Se vocês não forem utilizar nenhuma api_key (grok ou runflow), deixar vazio esses campos
-    3.5 - Antes de criar selecionar em "Run apply on the created stack" o checkbox "Run apply"
+    - 3.1 - ![alt text](img/image.png)
+    - 3.2 Envie o arquivo : "runflow-oci-saas-demo-v2.zip" que está nesse repositório
+    - 3.3 - Create in compartment: inserir o compartment que foi criado no passo anterior
+    - 3.4 - Se vocês não forem utilizar nenhuma api_key (grok ou runflow), deixar vazio esses campos
+    - 3.5 - Antes de criar selecionar em "Run apply on the created stack" o checkbox "Run apply"
 
 4. Após alguns minutos, será criado alguns recursos como:
     - Toda fundação de redes como VCN, Subnet, SL, Gateways e etc
